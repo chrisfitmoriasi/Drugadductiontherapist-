@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "165809371373",
+    "firebase_url": "https://drugaddictiontherapysystem.firebaseio.com",
+    "project_id": "drugaddictiontherapysystem",
+    "storage_bucket": "drugaddictiontherapysystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165809371373:android:dd6aa5c4b8307c622df4e4",
+        "android_client_info": {
+          "package_name": "com.example.drugaddicationtherapysystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165809371373-4qv7ju0181e5kqt0hnmd10ueop8ui88v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.drugaddicationtherapysystem",
+            "certificate_hash": "3462042eab9ffc4080e50458dfdc4166399fd7d3"
+          }
+        },
+        {
+          "client_id": "165809371373-9bqt0cfm8rgq6cldjbin2a14n839oq9v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz_uQhGfmqC599xJCvXEW0bNi3xL4LfAM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165809371373-9bqt0cfm8rgq6cldjbin2a14n839oq9v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

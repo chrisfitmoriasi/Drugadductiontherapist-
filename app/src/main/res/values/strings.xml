@@ -1,0 +1,56 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Drug Addication Therapy System</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Chatroom">Chatroom</string>
+    <string name="login">LOGIN</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="Forget_password">Forget password?</string>
+    <string name="Login">Login</string>
+    <string name="register">Register</string>
+    <string name="passwordA">PASSWORD</string>
+    <string name="emailA">EMAIL</string>
+    <string name="name">NAME</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="already_registered_login_here">Already Registered? Login Here?</string>
+    <string name="forget_password">Forget password?</string>
+    <string name="drug_addiction_therapy">Drug addiction therapy</string>
+    <string name="spiritual_support">Spiritual Support</string>
+    <string name="drug_addiction_therapy_system">DRUG ADDICTION THERAPY SYSTEM</string>
+    <string name="confirm_password">CONFIRM PASSWORD</string>
+    <string name="resources">Resources</string>
+    <string name="to_recover_password">To recover password</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="submit">Submit</string>
+    <string name="profile">PROFILE</string>
+    <string name="learning_skills">Learning skills</string>
+    <string name="self_care">SELF CARE</string>
+    <string name="chatroom">CHATROOM</string>
+    <string name="associates">ASSOCIATES</string>
+    <string name="title_activity_therapistactivity">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_therapist_dashboard">TherapistDashboard</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_therapist_main">TherapistMain</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_therapist_home">TherapistHome</string>
+    <string name="title_activity_therapist_fast">therapistFast</string>
+    <string name="title_activity_therapistnav">therapistnav</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".messaging"
+    android:layout_height="match_parent">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_suggestions"
+        android:layout_width="match_parent"
+        android:layout_height="470dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp" />
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/recyclerview_suggestions"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+            <EditText
+
+                android:background="@drawable/rounded_edittext"
+                android:id="@+id/suggestion_message_id"
+                android:layout_width="313dp"
+                android:layout_height="50dp"
+                android:hint="Type a message"
+                />
+            <ImageView
+                android:layout_marginTop="9dp"
+                android:id="@+id/btn_upload_suggestion_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:src="@drawable/ic_baseline_send_24"
+
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>

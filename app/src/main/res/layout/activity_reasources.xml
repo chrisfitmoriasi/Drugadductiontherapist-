@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Reasources">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="UselessLeaf">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:text="Testimonies from recoveries of drug addiction"
+            android:textSize="19sp"
+            tools:ignore="HardcodedText,ScrollViewSize" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:id="@+id/text"
+                android:visibility="invisible"
+                tools:ignore="MissingConstraints" />
+        <VideoView
+            android:id="@+id/videos"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp">
+
+        </VideoView>
+        </FrameLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Spiritual supports"
+            android:textSize="14sp"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            tools:ignore="HardcodedText" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.github.barteksc.pdfviewer.PDFView
+            android:id="@+id/pdfView"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginTop="21dp" />
+    </LinearLayout>
+        <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+            <com.github.barteksc.pdfviewer.PDFView
+                android:id="@+id/pdfView1"
+                android:layout_width="match_parent"
+                android:layout_height="76dp">
+            </com.github.barteksc.pdfviewer.PDFView>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="13sp"
+            android:text="Counselling Materials Available"
+            android:layout_height="match_parent"
+            tools:ignore="HardcodedText" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.github.barteksc.pdfviewer.PDFView
+            android:id="@+id/pdfView2"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginTop="15dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.github.barteksc.pdfviewer.PDFView
+            android:id="@+id/pdfView3"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="76dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.github.barteksc.pdfviewer.PDFView
+            android:id="@+id/pdfView4"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginTop="15dp"
+            />
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
